@@ -20,3 +20,12 @@
 .site-nav {
     display: flex;
 }
+main {
+  background-color: rgb(1, 53, 71);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  color: rgb(244, 247, 246);
+  min-height: 400px; 
+}
