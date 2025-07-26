@@ -1,0 +1,22 @@
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items :center;
+    padding : 10px 20px;
+    background-color: rgb(1, 30, 58);
+    background-image: url('images/photo.jpg');
+      
+}
+.title {
+    font-size: 22px;
+    color: white
+}
+.site-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color:white;
+    text-decoration: none;
+}
+.site-nav {
+    display: flex;
+}
