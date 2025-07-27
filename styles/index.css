@@ -37,7 +37,7 @@ main {
   background-repeat: no-repeat;
   padding: 40px;
   color: rgb(244, 247, 246);
-  min-height: 400px; 
+  min-height: 100vh; 
 }
 .intro {
     text-align: center;
@@ -50,6 +50,7 @@ main {
   flex-wrap: wrap;
   gap: 20px;
   padding: 40px;
+  margin-bottom: 60px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,6 +64,7 @@ main {
   flex: 1 1 250px;
   text-align: center;
   color: white;
+  margin-top: 3rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   opacity: 0;
   animation: fadeInUp 0.6s ease-out forwards;
@@ -72,6 +74,13 @@ main {
 .feature-box:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+.closing-quote {
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 60px; 
 }
 
 @keyframes fadeInUp {
