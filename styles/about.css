@@ -1,0 +1,73 @@
+/* resetting and box sizing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 53, 71);
+}
+/* navigation links */
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items :center;
+    padding: 30px;
+    background-color:rgb(1, 30, 58);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin: 0%;
+}
+.title {
+    font-size: 22px;
+    color: white
+}
+.site-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.site-nav a:hover {
+  color: #4760ff;
+}
+.about h2 {
+    font-size: 30px;
+    color: beige;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
+.about p {
+    font-size: 1.7rem;
+    color: bisque;
+    text-align: center;
+    display: block;
+    padding: 25px;
+    margin: 50px;
+}
+.music-routine h3{
+    color:#49b6e1;
+    font-size: 30px;
+    margin-top: 2em;
+    text-align: center;
+    text-shadow: 1px 1px 2px #ccc;
+}
+.music-routine ol {
+  padding-left: 0;
+}
+
+.music-routine li {
+    list-style: none;
+    margin: 8px 8rem;
+    padding: 1em;
+    border-radius: 8px;
+    background: linear-gradient(120deg, #866aa0, #54677a);
+    color: #bbcee6;
+    box-shadow: 0 4px 8px rgba(176, 126, 126, 0.15);
+    border-left: 6px solid #b9b0be;
+}
+.music-routine li:hover {
+    transform:scale(1.02);
+    background:linear-gradient(120deg, #6e5a8c, #45576c);
+}
