@@ -32,7 +32,7 @@ body{
   color: #4760ff;
 }
 .about h2 {
-    font-size: 30px;
+    font-size: 50px;
     color: beige;
     text-align: center;
     font-weight: bold;
@@ -43,7 +43,7 @@ body{
     color: bisque;
     text-align: center;
     display: block;
-    padding: 25px;
+    padding: 40px;
     margin: 50px;
 }
 .music-routine h3{
@@ -70,4 +70,32 @@ body{
 .music-routine li:hover {
     transform:scale(1.02);
     background:linear-gradient(120deg, #6e5a8c, #45576c);
+}
+.table-header{
+    color: #ccc;
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: justify;
+    padding-left: 20px;
+}
+table {
+  width: 700px;
+  border-collapse: collapse;
+  background-color: #7a98d4;
+  padding-left: 70px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #4d60ea;
+  padding: 0.75em;
+  text-align: left;
+}
+
+th {
+  background-color: #bac2e9;
+  color: #3e3f77;
 }
