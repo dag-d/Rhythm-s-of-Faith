@@ -107,52 +107,73 @@ footer {
     padding:5px;
     color: aliceblue;
 }
-/* Mobile Responsive Media Query */
-@media screen and (max-width: 600px) {
-  header h1 {
-    font-size: 2rem;
+/* Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
   }
 
-  nav a {
-    display: block;
+  .site-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-nav a {
     margin: 10px 0;
+    font-size: 1.1rem;
   }
 
-  .intro h2 {
-    font-size: 1.5rem;
+  .features {
+    flex-direction: column;
+    padding: 20px;
   }
 
-  blockquote {
-    padding: 15px;
-    font-size: 1rem;
-  }
-
-  .featured img {
-    border-radius: 6px;
+  .feature-box {
+    margin-top: 2rem;
+    flex: 1 1 80%;
   }
 }
 
-/* tablet responsive media query */
-@media screen and (max-width: 1024px) {
-  header h1 {
-    font-size: 2.2rem;
+/* Mobile View (max-width: 767px) */
+@media (max-width: 767px) {
+  .title {
+    font-size: 18px;
   }
 
-  nav a {
-    display: block;
-    margin: 12px 0;
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
   }
 
-  .intro h2 {
-    font-size: 1.7rem;
+  .site-nav a {
+    margin: 8px 0;
+    font-size: 1rem;
   }
 
-  blockquote {
+  main {
     padding: 20px;
-    font-size: 1.2rem;
   }
 
-  .featured img {
-    border-radius: 10px;
+  .intro {
+    padding: 30px 10px;
+  }
+
+  .features {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .feature-box {
+    flex: 1 1 100%;
+    font-size: 0.95rem;
+    padding: 15px;
+  }
+
+  .closing-quote {
+    font-size: 18px;
+    margin-top: 40px;
   }
 }
