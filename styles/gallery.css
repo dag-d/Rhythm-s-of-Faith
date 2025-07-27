@@ -1,0 +1,33 @@
+/* resetting and box sizing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 53, 71);
+}
+/* navigation links */
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items :center;
+    padding: 30px;
+    background-color:rgb(1, 30, 58);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin: 0%;
+}
+.title {
+    font-size: 22px;
+    color: white
+}
+.site-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.site-nav a:hover {
+  color: #4760ff;
+}
