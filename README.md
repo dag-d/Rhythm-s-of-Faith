@@ -1,5 +1,5 @@
 # Rhythm-s-of-Faith
-what I love project
+what I love css project
 ## used languages
 CSS and HTML
 ### features
